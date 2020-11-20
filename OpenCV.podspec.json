@@ -1,0 +1,34 @@
+{
+  "name": "OpenCV",
+  "version": "4.1.0",
+  "summary": "OpenCV (Computer Vision) for iOS",
+  "homepage": "https://opencv.org/",
+  "description": "OpenCV: open source computer vision library\n\n    Homepage: https://opencv.org/\n    Online docs: https://docs.opencv.org/master/\n    Q&A forum: http://answers.opencv.org/questions/\n    Dev zone: https://github.com/opencv/opencv",
+  "documentation_url": "https://docs.opencv.org/master/",
+  "authors": "https://github.com/opencv/opencv/graphs/contributors",
+  "license": {
+    "type": "APACHE LICENSE, VERSION 2.0",
+    "text": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://github.com/opencv/opencv/releases/download/4.5.0/opencv-4.5.0-ios-framework.zip",
+    "sha256": "ad60e16d9490a87e818df52ba2b2b9aef64e050a1865a36516634fdb1410b092"
+  },
+  "vendored_frameworks": "opencv2.framework",
+  "header_mappings_dir": "opencv2.framework/Versions/A/Headers",
+  "frameworks": [
+    "AssetsLibrary",
+    "AVFoundation",
+    "CoreGraphics",
+    "CoreMedia",
+    "CoreVideo",
+    "Foundation",
+    "QuartzCore",
+    "UIKit"
+  ],
+  "libraries": "c++",
+  "requires_arc": false
+}
