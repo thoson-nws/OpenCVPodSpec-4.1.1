@@ -1,6 +1,6 @@
 {
   "name": "OpenCV",
-  "version": "4.1.1",
+  "version": "4.1.2",
   "summary": "OpenCV (Computer Vision) for iOS",
   "homepage": "https://opencv.org/",
   "description": "OpenCV: open source computer vision library\n\n    Homepage: https://opencv.org/\n    Online docs: https://docs.opencv.org/master/\n    Q&A forum: http://answers.opencv.org/questions/\n    Dev zone: https://github.com/opencv/opencv",
