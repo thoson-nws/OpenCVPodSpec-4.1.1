@@ -14,7 +14,7 @@
     "ios": "8.0"
   },
   "source": {
-    "http": "https://github.com/opencv/opencv/releases/download/4.5.0/opencv-4.5.0-ios-framework.zip"
+    "http": "https://github.com/opencv/opencv/releases/download/4.1.1/opencv-4.1.1-ios-framework.zip"
   },
   "vendored_frameworks": "opencv2.framework",
   "header_mappings_dir": "opencv2.framework/Versions/A/Headers",
